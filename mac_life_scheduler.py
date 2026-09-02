@@ -80,16 +80,15 @@ def check_event(now, day, hour, minute):
 
 # --- SCHEDULE DEFINITION ---
 EVENTS = [
-    ("Movement Group",    "Monday",     9, 55),
-    ("Walking Group",     "Wednesday", 11, 55),
-    ("Shower Reminder",    "Friday",    16, 3),
-    ("Test event 1",    "Wednesday",    16, 2),
-    ("Test event 2",    "Wednesday",    16, 4),
+    ("Movement Group",    "removed",     9, 55),
+    ("Walking Group",     "removed", 11, 55),
+    ("Shower Reminder",    "removed",    16, 3),
+    ("Test event 1",    "removed",    16, 2),
+    ("Test event 2",    "removed",    16, 4),
 ]
 
 for weekday in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]:
-    EVENTS.append(("Wake Up Reminder", weekday, 7, 40))
-    EVENTS.append(("Wake Up Reminder 2", weekday, 7, 45))
+    EVENTS.append(("Wake Up Reminder", weekday, 8, 00))
 
 def main():
     clear_terminal()
