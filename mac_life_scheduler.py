@@ -148,6 +148,7 @@ EVENTS = [
 
 for weekday in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]:
     EVENTS.append(("Wake Up Reminder", weekday, 8, 00))
+    EVENTS.append(("Go Sleep Reminder", weekday, 23, 15))
 
 def main():
     clear_terminal()
