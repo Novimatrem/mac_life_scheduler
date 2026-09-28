@@ -157,7 +157,7 @@ def main():
     print("Audio: Simultaneous Layers | Volume: Forced 100% | Popups: Independent")
     
     # Startup Diagnostic (WARNING: This will be 100% volume)
-    run_alert("Startup Diagnostic Completed")
+    #run_alert("Startup Diagnostic Completed")
 
     last_triggered = None
 
