@@ -4,7 +4,7 @@ Keeps me informed with an alert of things I have to do, when I have to do them. 
 
 # Laptop recommendation
 
-If you plan to run this script on a laptop, I recommend installing Amphetamine, and configuring it to start at startup, enable a session at startup, and disable the lid switch (Uncheck Allow system sleep when display is closed), otherwise closing the lid will mute any alerts. 
+If you plan to run this script on a laptop, I recommend installing Amphetamine, and configuring it to start at startup, enable a session at startup, and disable the lid switch (Uncheck Allow system sleep when display is closed), otherwise closing the lid will mute any alerts. You can test this is working by playing a YouTube video and closing the lid - if you can continue to hear it, then you configured Amphetamine correctly.
 
 # AI usage declaration
 
